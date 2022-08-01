@@ -864,6 +864,11 @@ INPUT ./images//Weightdecay2.PNG
 INPUT ./images//Weightdecay2.PNG
 INPUT ./images//Weightdecay2.PNG
 INPUT y:/Software/IT/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./images//LossSpikes.PNG
+INPUT ./images//LossSpikes.PNG
+INPUT ./images//LossSpikes.PNG
+INPUT ./images//LossSpikes.PNG
+INPUT ./images//LossSpikes.PNG
 INPUT Progress.aux
 INPUT ./Progress.out
 INPUT ./Progress.out

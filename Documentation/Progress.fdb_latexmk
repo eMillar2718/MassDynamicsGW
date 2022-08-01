@@ -1,15 +1,16 @@
 # Fdb version 3
-["biber Progress"] 1659351302 "Progress.bcf" "Progress.bbl" "Progress" 1659352205
-  "Progress.bcf" 1659352205 105602 615842bec32b98a4162bdf480443d9ba "pdflatex"
+["biber Progress"] 1659351302 "Progress.bcf" "Progress.bbl" "Progress" 1659389921
+  "Progress.bcf" 1659389920 105602 615842bec32b98a4162bdf480443d9ba "pdflatex"
   (generated)
   "Progress.bbl"
   "Progress.blg"
-["pdflatex"] 1659352203 "Progress.tex" "Progress.pdf" "Progress" 1659352205
-  "Progress.aux" 1659352205 2803 1d5eb18d5e1fcf7901be8c1735aecd69 "pdflatex"
+["pdflatex"] 1659389918 "Progress.tex" "Progress.pdf" "Progress" 1659389921
+  "Progress.aux" 1659389920 3182 449582238d2c311d9fe07418df5fcc8f "pdflatex"
   "Progress.bbl" 1659351304 486 f7f239c736cf01ac6ce7bd829f9b3c7b "biber Progress"
-  "Progress.out" 1659352205 47 954e5259277dfb08456e0d2675ba754a "pdflatex"
-  "Progress.run.xml" 1659352205 2331 fbc9d382cb9ddf8a30445d0c6599a21f "pdflatex"
-  "Progress.tex" 1659352200 2039 7011e86a64f732a8165be8bc423f4ea3 ""
+  "Progress.out" 1659389920 47 954e5259277dfb08456e0d2675ba754a "pdflatex"
+  "Progress.run.xml" 1659389920 2331 fbc9d382cb9ddf8a30445d0c6599a21f "pdflatex"
+  "Progress.tex" 1659389900 2335 5a26fef3c956d8bf1ada150d61eebd3c ""
+  "images//LossSpikes.PNG" 1659355696 40628 abe49437bdf87cea2e34ad00416401e6 ""
   "images//Overfit.PNG" 1659349703 36200 fe50776fc8da040b559696fbd50e888d ""
   "images//Weightdecay0.PNG" 1659350973 31754 1a07ee556a3a6e6d1e5591c47eae32bc ""
   "images//Weightdecay1.PNG" 1659350275 29752 dad4199025141498a03e180a8363859b ""
@@ -130,9 +131,9 @@
   "y:/Software/IT/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1610570459 2568623 b1454a808786e2b8f77501d8ed5393d1 ""
   "y:/Software/IT/texlive/2020/texmf.cnf" 1610570132 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "Progress.log"
-  "Progress.aux"
-  "Progress.bcf"
-  "Progress.run.xml"
-  "Progress.pdf"
   "Progress.out"
+  "Progress.run.xml"
+  "Progress.log"
+  "Progress.bcf"
+  "Progress.pdf"
+  "Progress.aux"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.13)  1 AUG 2022 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.13)  1 AUG 2022 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -805,8 +805,14 @@ Overfull \hbox (18.70436pt too wide) in paragraph at lines 54--55
 [1
 
 {y:/Software/IT/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./i
-mages//Overfit.PNG>] [2 <./images//Weightdecay0.PNG> <./images//Weightdecay1.PN
-G> <./images//Weightdecay2.PNG>] (./Progress.aux)
+mages//Overfit.PNG>]
+<./images//LossSpikes.PNG, id=25, 301.8778pt x 246.1697pt>
+File: ./images//LossSpikes.PNG Graphic file (type png)
+<use ./images//LossSpikes.PNG>
+Package pdftex.def Info: ./images//LossSpikes.PNG  used on input line 65.
+(pdftex.def)             Requested size: 241.50256pt x 196.936pt.
+ [2 <./images//Weightdecay0.PNG> <./images//Weightdecay1.PNG> <./images//Weight
+decay2.PNG> <./images//LossSpikes.PNG>] (./Progress.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -822,10 +828,10 @@ Package logreq Info: Writing requests to 'Progress.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17370 strings out of 479304
- 297321 string characters out of 5855874
- 1036879 words of memory out of 5000000
- 34325 multiletter control sequences out of 15000+600000
+ 17378 strings out of 479304
+ 297492 string characters out of 5855874
+ 1036980 words of memory out of 5000000
+ 34331 multiletter control sequences out of 15000+600000
  413434 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,9n,77p,741b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -836,10 +842,10 @@ mr12.pfb><y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr8.pfb><y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb><y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on Progress.pdf (2 pages, 188209 bytes).
+Output written on Progress.pdf (2 pages, 227985 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 34 words of extra memory for PDF output out of 10000 (max. 10000000)
 
