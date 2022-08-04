@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.13)  1 AUG 2022 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.13)  4 AUG 2022 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Progress.tex
-(./Progress.tex
+**ProgressDoc.tex
+(./ProgressDoc.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03>
 (y:/Software/IT/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -625,8 +625,12 @@ f
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count439
 \l__pdf_internal_box=\box54
-) (./Progress.aux)
-\openout1 = `Progress.aux'.
+) (./ProgressDoc.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+\openout1 = `ProgressDoc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -644,8 +648,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-
-(y:/Software/IT/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (y:/Software/IT/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count440
 \scratchdimen=\dimen175
@@ -729,11 +732,11 @@ Package: xparse 2020-10-27 L3 Experimental document command parser
 ric.tex))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout3 = `Progress.bcf'.
+\openout3 = `ProgressDoc.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Progress.bbl' found.
- (./Progress.bbl)
+Package biblatex Info: ... file 'ProgressDoc.bbl' found.
+ (./ProgressDoc.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
 Package hyperref Info: Link coloring ON on input line 19.
@@ -753,9 +756,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
 LaTeX Info: Redefining \nameref on input line 19.
- (./Progress.out) (./Progress.out)
+ (./ProgressDoc.out) (./ProgressDoc.out)
 \@outlinefile=\write4
-\openout4 = `Progress.out'.
+\openout4 = `ProgressDoc.out'.
 
 \c@lstlisting=\count447
 Package caption Info: Begin \AtBeginDocument code.
@@ -772,33 +775,33 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 (y:/Software/IT/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./images//Overfit.PNG, id=8, 320.69812pt x 245.41687pt>
+<./images//Overfit.PNG, id=20, 320.69812pt x 245.41687pt>
 File: ./images//Overfit.PNG Graphic file (type png)
 <use ./images//Overfit.PNG>
-Package pdftex.def Info: ./images//Overfit.PNG  used on input line 30.
-(pdftex.def)             Requested size: 224.48714pt x 171.79062pt.
-<./images//Weightdecay0.PNG, id=10, 306.39468pt x 244.66406pt>
+Package pdftex.def Info: ./images//Overfit.PNG  used on input line 31.
+(pdftex.def)             Requested size: 160.34866pt x 122.70813pt.
+<./images//Weightdecay0.PNG, id=22, 306.39468pt x 244.66406pt>
 File: ./images//Weightdecay0.PNG Graphic file (type png)
 <use ./images//Weightdecay0.PNG>
-Package pdftex.def Info: ./images//Weightdecay0.PNG  used on input line 42.
-(pdftex.def)             Requested size: 153.19696pt x 122.33173pt.
-<./images//Weightdecay1.PNG, id=11, 302.63063pt x 244.66406pt>
+Package pdftex.def Info: ./images//Weightdecay0.PNG  used on input line 43.
+(pdftex.def)             Requested size: 30.64125pt x 24.46783pt.
+<./images//Weightdecay1.PNG, id=23, 302.63063pt x 244.66406pt>
 File: ./images//Weightdecay1.PNG Graphic file (type png)
 <use ./images//Weightdecay1.PNG>
-Package pdftex.def Info: ./images//Weightdecay1.PNG  used on input line 48.
-(pdftex.def)             Requested size: 151.31494pt x 122.33173pt.
+Package pdftex.def Info: ./images//Weightdecay1.PNG  used on input line 49.
+(pdftex.def)             Requested size: 60.52504pt x 48.93193pt.
 
-Overfull \hbox (18.69978pt too wide) in paragraph at lines 48--49
+Overfull \hbox (18.72893pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-<./images//Weightdecay2.PNG, id=12, 304.13625pt x 244.66406pt>
+<./images//Weightdecay2.PNG, id=24, 304.13625pt x 244.66406pt>
 File: ./images//Weightdecay2.PNG Graphic file (type png)
 <use ./images//Weightdecay2.PNG>
-Package pdftex.def Info: ./images//Weightdecay2.PNG  used on input line 54.
-(pdftex.def)             Requested size: 152.06775pt x 122.33173pt.
+Package pdftex.def Info: ./images//Weightdecay2.PNG  used on input line 55.
+(pdftex.def)             Requested size: 60.82616pt x 48.93193pt.
 
-Overfull \hbox (18.70436pt too wide) in paragraph at lines 54--55
+Overfull \hbox (18.7434pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
@@ -806,35 +809,89 @@ Overfull \hbox (18.70436pt too wide) in paragraph at lines 54--55
 
 {y:/Software/IT/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./i
 mages//Overfit.PNG>]
-<./images//LossSpikes.PNG, id=25, 301.8778pt x 246.1697pt>
+<./images//LossSpikes.PNG, id=37, 301.8778pt x 246.1697pt>
 File: ./images//LossSpikes.PNG Graphic file (type png)
 <use ./images//LossSpikes.PNG>
-Package pdftex.def Info: ./images//LossSpikes.PNG  used on input line 65.
-(pdftex.def)             Requested size: 241.50256pt x 196.936pt.
- [2 <./images//Weightdecay0.PNG> <./images//Weightdecay1.PNG> <./images//Weight
-decay2.PNG> <./images//LossSpikes.PNG>] (./Progress.aux)
+Package pdftex.def Info: ./images//LossSpikes.PNG  used on input line 66.
+(pdftex.def)             Requested size: 150.93852pt x 123.08453pt.
+<./images//loss0.PNG, id=38, 397.485pt x 246.1697pt>
+File: ./images//loss0.PNG Graphic file (type png)
+<use ./images//loss0.PNG>
+Package pdftex.def Info: ./images//loss0.PNG  used on input line 78.
+(pdftex.def)             Requested size: 198.742pt x 123.08453pt.
+<./images//recon1.PNG, id=39, 762.59906pt x 269.50688pt>
+File: ./images//recon1.PNG Graphic file (type png)
+<use ./images//recon1.PNG>
+Package pdftex.def Info: ./images//recon1.PNG  used on input line 84.
+(pdftex.def)             Requested size: 381.2986pt x 134.7531pt.
 
-LaTeX Warning: There were undefined references.
+Overfull \hbox (18.69388pt too wide) in paragraph at lines 84--85
+ [][] 
+ []
 
-Package rerunfilecheck Info: File `Progress.out' has not changed.
-(rerunfilecheck)             Checksum: 954E5259277DFB08456E0D2675BA754A;47.
+<./images//recon50.PNG, id=40, 934.99312pt x 389.20406pt>
+File: ./images//recon50.PNG Graphic file (type png)
+<use ./images//recon50.PNG>
+Package pdftex.def Info: ./images//recon50.PNG  used on input line 90.
+(pdftex.def)             Requested size: 467.4954pt x 194.60155pt.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Progress
-(biblatex)                and rerun LaTeX afterwards.
+Overfull \hbox (18.6972pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
 
-Package logreq Info: Writing requests to 'Progress.run.xml'.
-\openout1 = `Progress.run.xml'.
+[2 <./images//Weightdecay0.PNG> <./images//Weightdecay1.PNG> <./images//Weightd
+ecay2.PNG> <./images//LossSpikes.PNG>]
+File: ./images//Overfit.PNG Graphic file (type png)
+<use ./images//Overfit.PNG>
+Package pdftex.def Info: ./images//Overfit.PNG  used on input line 104.
+(pdftex.def)             Requested size: 160.34866pt x 122.70813pt.
+<./images//rec1center.PNG, id=52, 759.58781pt x 273.27094pt>
+File: ./images//rec1center.PNG Graphic file (type png)
+<use ./images//rec1center.PNG>
+Package pdftex.def Info: ./images//rec1center.PNG  used on input line 110.
+(pdftex.def)             Requested size: 379.79297pt x 136.63512pt.
+
+Overfull \hbox (18.69891pt too wide) in paragraph at lines 110--111
+ [][] 
+ []
+
+<./images//superimpstrains.PNG, id=53, 813.79031pt x 360.59718pt>
+File: ./images//superimpstrains.PNG Graphic file (type png)
+<use ./images//superimpstrains.PNG>
+Package pdftex.def Info: ./images//superimpstrains.PNG  used on input line 116.
+
+(pdftex.def)             Requested size: 406.89417pt x 180.29814pt.
+
+Overfull \hbox (18.69734pt too wide) in paragraph at lines 116--117
+ [][] 
+ []
+
+[3 <./images//loss0.PNG> <./images//recon1.PNG> <./images//recon50.PNG>]
+<./images//loss400k.png, id=62, 248.42813pt x 203.25937pt>
+File: ./images//loss400k.png Graphic file (type png)
+<use ./images//loss400k.png>
+Package pdftex.def Info: ./images//loss400k.png  used on input line 134.
+(pdftex.def)             Requested size: 198.74277pt x 162.60771pt.
+
+[4 <./images//rec1center.PNG> <./images//superimpstrains.PNG>] [5 <./images//lo
+ss400k.png>] (./ProgressDoc.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `ProgressDoc.out' has not changed.
+(rerunfilecheck)             Checksum: EA4EE3E1921186C1C8D730494163577A;240.
+Package logreq Info: Writing requests to 'ProgressDoc.run.xml'.
+\openout1 = `ProgressDoc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17378 strings out of 479304
- 297492 string characters out of 5855874
- 1036980 words of memory out of 5000000
- 34331 multiletter control sequences out of 15000+600000
- 413434 words of font info for 66 fonts, out of 8000000 for 9000
+ 17442 strings out of 479304
+ 298802 string characters out of 5855874
+ 1040680 words of memory out of 5000000
+ 34379 multiletter control sequences out of 15000+600000
+ 413741 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,77p,741b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,9n,77p,744b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 <y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb><y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 10.pfb><y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
@@ -842,10 +899,10 @@ mr12.pfb><y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr8.pfb><y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb><y:/Software/IT/texlive/2020/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on Progress.pdf (2 pages, 227985 bytes).
+Output written on ProgressDoc.pdf (5 pages, 1168962 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
