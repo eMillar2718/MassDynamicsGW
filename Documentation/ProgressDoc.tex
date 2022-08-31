@@ -136,7 +136,56 @@ The easiest first step to take is to increase the size of the training data set,
   \label{}
 \end{figure}
 
-However if we were to go any further we would start to become very computationally costly as this took 5 hours to train, so we look closer at the parameters of the flow.
+However if we were to go any further we would start to become very computationally costly as this took 5 hours to train, so we can look closer at the parameters of the flow. For now we will move on and accept that the loss is decreasing so the flow is operating at least somewhat optimally.
+
+\subsection{Changing the Windowing}
+
+Before going to higher dimensions, the main task is the alter how the the data is windowed. We want to search for burst dynamics, and the previous student decided to window the gravitational wave strain after its been processed to emulate what a signal would look like without altering the mass dynamics. However, this still has the input mass dynamics being constantly moving, ideally we want the masses to be doing nothing, then have movement, then stop, creating the burst. So we want to apply a window function to our mass dynamics. This changes how the maths works slightly, with our equation for Q being: $$Q(t) = \frac{1}{2} \sum_{i = 1}^{n} m_i X_{i}^{2}(t)$$
+
+where $X(t) = x(t) + w(x)$ with $x(t)$ being the unwindowed position functions of the mass and $w(t)$ being the tukey window function. \\
+
+So for our strain we have the following expression:
+
+
+\begin{align*}\label{eq:h_windowed}
+h(t) \approx \frac{d^2Q}{dt^2} =  \sum_{i=1}^{n} & \ m_i(\dot x_i^2(t) w(t)+ x(t) 2w(t) \dot w(t) \dot x(t) + x_i(t) w^2(t) \ddot x_i(t)\\
+&\quad  + 2x(t) \dot x(t) w(t) \dot w(t) + x^2(t) \dot w^2(t) + x^2(t) w(t) \ddot w(t))
+\end{align*}
+
+So for convenience, instead of using an inbuilt window function, I coded my own tapered cosine function which also returns the first and second derivatives using the following expressions:
+
+$$ w(x)=   \left\{
+\begin{array}{ll}
+      \frac{1}{2} (1 + cos\left(\frac{2 \pi}{\alpha} [x - \frac{\alpha}{2}]\right) & 0 \leq x \leq \frac{\alpha}{2} \\
+      1 & \frac{\alpha}{2} \leq x \leq 1 - \frac{\alpha}{2} \\
+      \frac{1}{2} (1 + cos\left(\frac{2 \pi}{\alpha} [x - \frac{\alpha}{2}]\right) & 1 - \frac{\alpha}{2} \leq x \leq 1 \\
+\end{array}
+\right.  $$
+
+$$ w'(x)=   \left\{
+\begin{array}{ll}
+      - \frac{1}{a}\pi sin(\frac{2 \pi x}{a} - \pi) & 0 \leq x \leq \frac{\alpha}{2} \\
+      1 & \frac{\alpha}{2} \leq x \leq 1 - \frac{\alpha}{2} \\
+      - \frac{1}{a}\pi sin(\frac{2 \pi x}{a} - \pi) & 1 - \frac{\alpha}{2} \leq x \leq 1 \\
+\end{array}
+\right.  $$
+
+$$ w''(x)=   \left\{
+\begin{array}{ll}
+      - \frac{1}{a^2}2 \pi^2 cos(\frac{2 \pi x}{a} - \pi) & 0 \leq x \leq \frac{\alpha}{2} \\
+      1 & \frac{\alpha}{2} \leq x \leq 1 - \frac{\alpha}{2} \\
+      - \frac{1}{a^2}2 \pi^2 cos(\frac{2 \pi x}{a} - \pi) & 1 - \frac{\alpha}{2} \leq x \leq 1 \\
+\end{array}
+\right.  $$
+
+Which when plotted look like this:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.5]{window.PNG}
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}
 
 \section{Going to Higher Dimensions}
 
