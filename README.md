@@ -11,12 +11,15 @@
 - Plotted SNR curves and Latent Space
 - Written window function along with its first and second derivatives
 - Created alternate strain function with the new mathematical expression for the strain including the windowed mass dynamics
+- Fix mathematical error where the mass dynamics are not tapering to zero
+- Apply mass dynamic windowing to 2D case
+- Compute strain for h_xx strain 
 
 ## To-Do
-- Fix mathematical error where the mass dynamics are not tapering to zero
-- Apply mass dynamic windowing to 3D case
-- Compute strain for h_xx strain 
-- Plot 3D mass dynamics for h_xx
+- Plot reconstructed dynamics for 2D case
+- Plot latent space of flow (fixing the error of repeated data of length of the sample size)
+- Animate the mass dynamics in 2D
+- Find a more suitable, continuous, window function for the mass dynamics
 
 ## Overview
 This project is the exploration of unmodelled gravitational wave signals, we will investigate whether machine learning techniques can be used to reconstruct the mass dynamics of a given burst signal. We use a conditional normalising flow, a type of neural network that maps a complex distrubution to a simple distribution, for this purpose. The flow is trained on simulated burst signals, initially modelled using point masses in 1D and noise free strain signals to demonstrate the flows ability to perform this operation. Upon the succession of doing so, the next step is to adapt the model to include noise, and scale to higher dimensions. 
